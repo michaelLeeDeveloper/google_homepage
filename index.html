@@ -4,6 +4,7 @@
         <meta name="viewport" content="width-device-width">
         <title>Copy of Google Homepage</title>
         <link href="style.css" rel="stylesheet" type="text/css">
+           <link href = "https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
     </head>
 
     <!--body-->
@@ -11,12 +12,14 @@
         <!--header-->
         <header>
             <nav class="topNav">
-                <a href="../about/index.html" class="alignLeft">About</a>
-                <a href="../store/index.html" class="alignLeft">Store</a>
+                <a href="../about/index.html" class="top">About</a>
+                <a href="../store/index.html" class="top">Store</a>
                 <div class= "empty">    </div>
-                <a href="../gmail/index.html" class="alignRight">Gmail</a>
-                <a href="../images/index.html" class="alignRight">Images</a>
-                <img id="dropdown" src="../outline_apps_black_24dp.png">
+                <a href="../gmail/index.html" class="top">Gmail</a>
+                <a href="../images/index.html" class="top">Images</a>
+                <span class="material-icons" id="appIcon">
+                    apps
+                    </span>
                 <button type="button" class="blueButton">Sign In</button>
             </nav>
         </header>
@@ -27,11 +30,13 @@
             <img class="centerImg" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
         <div class="search">
-        <img src="../outline_search_black_24dp.png" class="searchLogo">
+            <span class="material-icons" id="searchLogo">
+                search
+                </span>
         <input id="searchInput">
         </div>
         <div class="buttons">
-        <button class="leftButton">Google Search</button>
+        <button class="leftButton bottomButton">Google Search</button>
         <button class="bottomButton">I'm Feeling Lucky</button>
         </div>
         </main>
